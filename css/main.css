@@ -7,7 +7,9 @@ body {
     border: 1px solid #222;
     border-radius: 8px;
     padding: 1rem;
-    margin: 6px;
+    margin: 10px;
+    display:flex;
+    flex-direction: column;
   }
   
   .emoji h2 {
@@ -16,13 +18,11 @@ body {
   }
   
   .emoji a {
-    text-decoration: none;
+    text-decoration: center;
     background-color: #781BAA;
     color: white;
     padding: 1rem;
     border-radius: 8px;
-    margin-bottom:10px;
-
   }
   
   .icon {
@@ -30,14 +30,13 @@ body {
     display:flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
+    order:-1;
   }
 
   .Emojis{
    display:grid;
    grid-template-columns: repeat(2, 2fr);
    grid-template-rows: repeat(2, 2fr);
-}
+  }
 
-P {
-    margin-bottom: 30px;
-}
