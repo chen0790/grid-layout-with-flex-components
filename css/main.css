@@ -23,7 +23,8 @@ body {
     color: white;
     padding: 1rem;
     border-radius: 8px;
-    margin:10px;
+    height: 1em;
+    margin-top:auto;
   }
   
   .icon {
